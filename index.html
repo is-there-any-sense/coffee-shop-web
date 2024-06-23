@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined">
+   <link rel="stylesheet" href="style.css">
+   <title>Coffee shop</title>
+</head>
+<body>
+   <header id="header-section">
+      <div class="container container-header">
+         <div class="header">
+            <nav class="nav-main">
+               <ul class="nav-main-list">
+                  <li class="nav-main-item">
+                     <a class="nav-main-link" href="#banner-section">На главную</a>
+                  </li>
+                  <li>
+                     <a class="nav-main-link" href="#history-section">О нас</a>
+                  </li>
+                  <li>
+                     <a class="nav-main-link" href="#popular-section">Магазин</a>
+                  </li>
+                  <li>
+                     <a class="nav-main-link" href="#menu-section">Меню</a>
+                  </li>
+                  <li>
+                     <a class="nav-main-link" href="#section-reservation">Бронь</a>
+                  </li>
+               </ul>
+               <img src="images/logo.png" alt="logo" class="header-logo">
+            </nav>
+            <div class="header-action">
+               <button class="header-action-search material-icons-outlined">search</button>
+               <button class="header-action-cart material-icons-outlined">local_mall</button>
+            </div>
+         </div>
+      </div>
+   </header>
+   <main>
+      <section id="banner-section">
+         <div class="container">
+            <div class="banner">
+               <div class="banner-info">
+                  <h2 class="banner-header">Насладитесь своим кофе</h2>
+                  <p class="banner-text">Кофе – это не просто напиток, это целая культура. Ароматный и бодрящий, 
+                     он сопровождает нас каждое утро, даря заряд энергии и хорошее настроение. 
+                     Существует множество видов кофе, от крепкого эспрессо до нежного латте, 
+                     каждый из которых имеет свой уникальный вкус и характер. Кофе объединяет людей, 
+                     становясь поводом для встреч и душевных бесед.</p>
+                  <button class="banner-btn btn-primary" href="#section-reservation">Попробовать</button>
+               </div>
+               <button class="banner-video-btn">Play video</button>
+            </div>
+         </div>
+      </section>
+      <div class="container">
+         <ol class="features section-main">
+            <li class="features-item">
+               <span class="features-item-dark">01</span>Лучший кофе
+               <img class="features-img" src="images/coffee.jpg" alt="#">
+            </li>
+            <li class="features-item">
+               <span class="features-item-dark">02</span>Забудьте о проблемах
+               <img class="features-img" src="images/coffee-milk.jpg" alt="#">
+            </li>
+            <li class="features-item">
+               <span class="features-item-dark">03</span>Правильная обжарка
+               <img class="features-img" src="images/coffee-machine.jpg" alt="#">
+            </li>
+         </ol>
+      </div>
+      <section id="history-section" class="section-main">
+         <div class="container">
+            <div class="history-wrap">
+               <img class="history-wrap-img" src="images/coffee-milk.jpg" alt="#">
+               <img class="history-wrap-img" src="images/cups.jpg" alt="#">
+               <img class="history-wrap-img" src="images/coffee.jpg" alt="#">
+               <div class="history">
+                  <h2 class="history-title section-title">О нас</h2>
+                  <h3 class="history-subtitle section-subtitle">Создайте историю с нами</h3>
+                  <p class="history-text section-text">Добро пожаловать в нашу новую кофейню "Coffee Shop"! 
+                     Здесь вы найдете уютную атмосферу, ароматный кофе из отборных зерен и вкусные десерты. 
+                     Идеальное место для утреннего вдохновения или вечерней беседы с друзьями. 
+                     Приходите и наслаждайтесь каждой чашкой у нас!</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="popular-section" class="section-main">
+         <div class="container">
+            <h2 class="section-title">Популярные продукты</h2>
+            <h3 class="section-subtitle">Настоящий зерновой кофе</h3>
+            <div class="popular-wrap">
+               <div class="popular">
+                  <img class="popular-img" src="images/coffee-bag.jpg" alt="#">
+                  <div class="rating">
+                     <h4 class="rating-title">Кофе</h4>
+                     <ul class="rating-list">
+                        <li class="rating-item material-icons-outlined">star</li>
+                        <li class="rating-item material-icons-outlined">star</li>
+                        <li class="rating-item material-icons-outlined">star</li>
+                        <li class="rating-item material-icons-outlined">star_border</li>
+                        <li class="rating-item material-icons-outlined">star_border</li>
+                     </ul>
+                  </div>
+                  <h3 class="popular-title">Бразильский кофе</h3>
+                  <b class="popular-price">Цена - <span class="price-dark">1800₽</span> / <span class="popular-price-old">2200₽</span></b>
+                  <button class="popular-btn btn-primary"><span class="material-icons-outlined">local_mall</span>Добавить в корзину</button>
+               </div>
+               <div class="popular">
+                  <img class="popular-img" src="images/coffee-bag.jpg" alt="#">
+                  <div class="rating">
+                     <h4 class="rating-title">Кофе</h4>
+                     <ul class="rating-list">
+                        <li class="rating-item material-icons-outlined">star</li>
+                        <li class="rating-item material-icons-outlined">star</li>
+                        <li class="rating-item material-icons-outlined">star</li>
+                        <li class="rating-item material-icons-outlined">star</li>
+                        <li class="rating-item material-icons-outlined">star_border</li>
+                     </ul>
+                  </div>
+                  <h3 class="popular-title">Эфиопский кофе</h3>
+                  <b class="popular-price">Цена - <span class="price-dark">2600₽</span> / <span class="popular-price-old">3000₽</span></b>
+                  <button class="popular-btn btn-primary"><span class="material-icons-outlined">local_mall</span>Добавить в корзину</button>
+               </div>
+               <div class="popular">
+                  <img class="popular-img" src="images/coffee-bag.jpg" alt="#">
+                  <div class="rating">
+                     <h4 class="rating-title">Кофе</h4>
+                     <ul class="rating-list">
+                        <li class="rating-item material-icons-outlined">star</li>
+                        <li class="rating-item material-icons-outlined">star</li>
+                        <li class="rating-item material-icons-outlined">star</li>
+                        <li class="rating-item material-icons-outlined">star</li>
+                        <li class="rating-item material-icons-outlined">star</li>
+                     </ul>
+                  </div>
+                  <h3 class="popular-title">Колумбийский кофе</h3>
+                  <b class="popular-price">Цена - <span class="price-dark">3200₽</span> / <span class="popular-price-old">3600₽</span></b>
+                  <button class="popular-btn btn-primary"><span class="material-icons-outlined">local_mall</span>Добавить в корзину</button>
+               </div>
+            </div>
+            <a class="popular-link btn-primary" href="#">Посмотреть все</a>
+         </div>
+      </section>
+      <section id="discover-section" class="section-main">
+         <div class="container">
+            <div class="discover-wrap">
+               <img class="discover-img" src="images/blender.png" alt="#">
+               <div class="discover">
+                  <h3 class="discover-title section-subtitle">Кофемашины.<br>Купить, не выходя из дома.</h3>
+                  <p class="section-text">Откройте мир идеального кофе с нашей кофемашиной! 
+                     Быстрое приготовление, простое управление и стильный дизайн. 
+                     Наслаждайтесь ароматным эспрессо, капучино или латте каждый день. 
+                     Идеально подходит для дома и офиса. Вкус, который вы полюбите с первой чашки.</p>
+                  <a class="discover-link btn-primary" href="#">Купить сейчас</a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="menu-section" class="section-main">
+         <div class="container">
+            <h2 class="section-title">Меню</h2>
+            <h3 class="section-subtitle">Популярный кофе</h3>
+            <ul class="menu-wrap">
+               <li class="menu">
+                  <img class="menu-img" src="images/bg-1.jpg" alt="#">
+                  <h3 class="menu-title">Крепкий эспрессо</h3>
+                  <b class="menu-price price-dark">150₽</b>
+               </li>
+               <li class="menu">
+                  <img class="menu-img" src="images/bg-2.jpg" alt="#">
+                  <h3 class="menu-title">Пенный капучино</h3>
+                  <b class="menu-price price-dark">200₽</b>
+               </li>
+               <li class="menu">
+                  <img class="menu-img" src="images/bg-3.jpg" alt="#">
+                  <h3 class="menu-title">Нежный латте</h3>
+                  <b class="menu-price price-dark">220₽</b>
+               </li>
+               <li class="menu">
+                  <img class="menu-img" src="images/bg-4.jpg" alt="#">
+                  <h3 class="menu-title">Легкий американо</h3>
+                  <b class="menu-price price-dark">170₽</b>
+               </li>
+               <li class="menu">
+                  <img class="menu-img" src="images/bg-5.jpg" alt="#">
+                  <h3 class="menu-title">Ароматный раф</h3>
+                  <b class="menu-price price-dark">250₽</b>
+               </li>
+               <li class="menu">
+                  <img class="menu-img" src="images/bg-6.jpg" alt="#">
+                  <h3 class="menu-title">Шоколадный мокко</h3>
+                  <b class="menu-price price-dark">230₽</b>
+               </li>
+               <li class="menu">
+                  <img class="menu-img" src="images/bg-7.jpg" alt="#">
+                  <h3 class="menu-title">Бархатистый флэт уайт</h3>
+                  <b class="menu-price price-dark">240₽</b>
+               </li>
+               <li class="menu">
+                  <img class="menu-img" src="images/bg-8.jpg" alt="#">
+                  <h3 class="menu-title">Освежающий айс-кофе</h3>
+                  <b class="menu-price price-dark">230₽</b>
+               </li>
+            </ul>
+         </div>
+      </section>
+      <section id="section-reservation" class="section-main">
+         <div class="container">
+            <div class="reservation-wrap">
+               <iframe 
+               src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2819.298912999882!2d41.95741807670753!3d45.03915576169739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDXCsDAyJzIxLjAiTiA0McKwNTcnMzYuMCJF!5e0!3m2!1sru!2sru!4v1719167012385!5m2!1sru!2sru" 
+               width="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               <form class="reservation">
+                  <h2 class="reservation-title section-title">Бронь</h2>
+                  <h3 class="reservation-subtitle section-subtitle">Забронировать столик</h3>
+                  <input class="reservation-input" type="text" value="4 человека">
+                  <input class="reservation-input" type="text" value="01.07.2024">
+                  <input class="reservation-input" type="text" value="11:00">
+                  <button class="reservation-btn btn-primary" href="#">Подтвердить</button>
+               </form>
+            </div>
+         </div>
+      </section>
+      <footer id="footer-section">
+         <div class="container">
+            <div class="footer">
+               <img class="footer-img" src="images/logo.png" alt="#">
+               <ul class="footer-list">
+                  <li class="footer-item">
+                     <a class="footer-link" href="#banner-section">На главную</a>
+                  </li>
+                  <li class="footer-item">
+                     <a class="footer-link" href="#history-section">О нас</a>
+                  </li>
+                  <li class="footer-item">
+                     <a class="footer-link" href="#popular-section">Магазин</a>
+                  </li>
+                  <li class="footer-item">
+                     <a class="footer-link" href="#menu-section">Меню</a>
+                  </li>
+                  <li class="footer-item">
+                     <a class="footer-link" href="#section-reservation">Бронь</a>
+                  </li>
+                  
+                  
+               </ul>
+               <form class="footer-form">
+                  <input class="footer-input" type="email" placeholder="Введите почту">
+                  <button class="footer-form-btn material-icons-outlined" href="#">east</button>
+               </form>
+            </div>
+         </div>
+         <div class="footer-copyright">
+            <div class="container">
+               <p class="footer-copyrigth-text">2024. Все права защищены.</p>
+            </div>
+         </div>
+      </footer>
+   </main>
+</body>
+</html>
